@@ -41,9 +41,6 @@ resetLast.addEventListener("click", () => {
 
 function showElement() {
     for (let i = 0; i < table.length; i++) {
-        // let newtodo = document.createElement('li');
-        // newtodo.textContent = table[i];
-        // ol.appendChild(newtodo);
         ol.innerHTML += `<li class="elem" onclick = 'change()'>${table[i]} </li>`
     }
 }
@@ -52,7 +49,7 @@ function change() {
 
     elemente.forEach(element => {
         element.onclick = () => {
-            element.classList.add('element')
+            element.classList.add('element');
         }
     });
 }
