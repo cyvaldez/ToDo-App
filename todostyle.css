@@ -1,0 +1,85 @@
+.schrim {
+    background: linear-gradient(180deg in hsl, aqua, blue);
+    margin: auto;
+    border: beige solid;
+    border-radius: 8px;
+    height: 700px;
+    width: 500px;
+}
+
+/* .schrim {
+    border-radius: 10px;
+    margin: auto;
+    border: black solid;
+} */
+
+h1 {
+    text-align: center;
+    text-decoration: double underline;
+
+}
+
+.inputdiv {
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    border-radius: 4px;
+    display: block;
+    width: 300px;
+    height: 30px;
+}
+
+.add {
+    display: block;
+    border-radius: 4px;
+    background-color: aqua;
+    width: 40px;
+
+}
+
+main {
+    height: 520px;
+    display: flex;
+    overflow: scroll;
+}
+
+.Liste {
+    font-size: 20px;
+}
+
+.element {
+    color: violet;
+    text-decoration: line-through;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+footer button {
+    font-size: medium;
+    display: block;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.clear {
+    background-color: orange;
+}
+
+.resetLast {
+    background-color: aqua;
+}
