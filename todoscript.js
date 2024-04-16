@@ -50,7 +50,7 @@ function change() {
 
     elemente.forEach(element => {
         element.onclick = () => {
-            element.classList.add('element');
+            element.classList.toggle('element');
         }
     });
 }
