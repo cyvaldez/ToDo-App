@@ -22,6 +22,14 @@ li {
     height: 30px;
     background-color: aliceblue;
     border-radius: 5px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+li::-webkit-scrollbar {
+    /* scrollbar löschen für safari */
+    display: none;
 }
 
 h1 {
@@ -59,6 +67,16 @@ main {
     height: 520px;
     display: flex;
     overflow: scroll;
+    scrollbar-width: none;
+    /* scrollbar löschen für Touchscreen */
+    overscroll-behavior: none;
+    /* scrollbar löschen für Explorer & Edge */
+    -ms-overflow-style: none;
+}
+
+main::-webkit-scrollbar {
+    /* scrollbar löschen für safari */
+    display: none;
 }
 
 .Liste {
