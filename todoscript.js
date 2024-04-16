@@ -31,6 +31,7 @@ add.addEventListener('click', () => {
 
 clear.addEventListener("click", () => {
     ol.textContent = '';
+    table = [];
 });
 
 resetLast.addEventListener("click", () => {
